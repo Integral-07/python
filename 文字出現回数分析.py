@@ -8,7 +8,6 @@ for s in strings:
         if s == t:
             dict[s] += 1
             last = False
-            break
 
     if(last):
         dict[s] = 1
